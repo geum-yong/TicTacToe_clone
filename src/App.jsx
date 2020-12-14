@@ -1,7 +1,12 @@
 import React from 'react';
+import Game from './components/Game';
 
 function App() {
-  return <div>앱 시작</div>;
+  return (
+    <div>
+      <Game />
+    </div>
+  );
 }
 
 export default App;
